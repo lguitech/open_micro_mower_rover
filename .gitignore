@@ -1,52 +1,58 @@
-# Prerequisites
+# STM32CubeMX generated files to keep
+# Keep the .ioc file to allow regenerating the project
+!*.ioc
+
+# Keil (µVision) project files
+*.uvoptx
+*.uvopt
+*.uvguix.*
+*.uvprojx
+*.uvproj
+*.clx
+*.dep
+*.axf
+*.bak
+*.lk1
+*.lnp
+*.map
 *.d
+
+# Build output directories
+/Debug/
+/Release/
 
 # Object files
 *.o
-*.ko
 *.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
 
 # Libraries
 *.lib
 *.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
 *.so
-*.so.*
-*.dylib
 
-# Executables
+# Executable files
+*.elf
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Keil specific directories
+*.rte
+/Libraries/
+/Templates/
+/MDK-ARM/
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Tool-specific files
+/.settings
+*.cproject
+*.project
+.idea
+.vscode
+.ipch
+.DS_Store
